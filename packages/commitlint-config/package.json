@@ -1,0 +1,31 @@
+{
+  "name": "@fe-spec/commitlint-config",
+  "version": "0.0.0",
+  "description": "Commitlint shareable configuration",
+  "author": "BoBo0512 <amber.jing512@gmail.com>",
+  "homepage": "https://github.com/BoBo0512/fe-spec#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoBo0512/fe-spec.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@fe-spec/commitlint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/BoBo0512/fe-spec/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  }
+}

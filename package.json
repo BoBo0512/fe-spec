@@ -1,0 +1,29 @@
+{
+  "name": "fe-spec",
+  "private": true,
+  "description": "前端编码规范及配套工具",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@vuepress/bundler-vite": "^2.0.0-rc.18",
+    "@vuepress/theme-default": "^2.0.0-rc.61",
+    "husky": "^9.1.7",
+    "lerna": "^8.1.8",
+    "markdownlint": "^0.36.1",
+    "markdownlint-cli": "^0.43.0",
+    "sass-embedded": "^1.81.1",
+    "vue": "^3.5.13",
+    "vuepress": "^2.0.0-rc.18",
+    "vuepress-theme-plume": "^1.0.0-rc.119"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^8.0.0"
+  }
+}
