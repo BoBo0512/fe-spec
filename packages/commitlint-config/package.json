@@ -1,6 +1,6 @@
 {
   "name": "commitlint-config-toolkit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Commitlint shareable configuration",
   "author": "BoBo0512 <amber.jing512@gmail.com>",
   "homepage": "https://github.com/BoBo0512/fe-spec#readme",
