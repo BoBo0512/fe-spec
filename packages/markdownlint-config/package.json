@@ -2,28 +2,25 @@
   "name": "markdownlint-config-toolkit",
   "version": "1.3.0",
   "description": "markdownlint shareable configuration",
+  "main": "index.json",
+  "scripts": {
+    "test": "node ./__tests__/markdownlint-config-toolkit.test.js"
+  },
+  "keywords": [
+    "markdownlint",
+    "markdownlint-config"
+  ],
   "author": "BoBo0512 <amber.jing512@gmail.com>",
   "homepage": "https://github.com/BoBo0512/fe-spec#readme",
-  "main": "index.json",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BoBo0512/fe-spec.git"
-  },
-  "scripts": {
-    "test": "node ./__tests__/markdownlint-config-toolkit.test.js"
   },
   "bugs": {
     "url": "https://github.com/BoBo0512/fe-spec/issues"
   },
   "peerDependencies": {
     "markdownlint": "0.x"
-  },
-  "gitHead": "83b9ce55fc840e6e4ad5b37c317cc6aeeb499f95"
+  }
 }
