@@ -68,8 +68,8 @@ export default defineUserConfig({
           {
             text: 'NPM包',
             items: [
-              { text: '@fe-spec/commitlint-config', link: '' },
-              { text: '@fe-spec/markdownlint-config', link: '' }
+              { text: 'commitlint-config-toolkit', link: '' },
+              { text: 'markdownlint-config-toolkit', link: '' }
             ]
           },
           {
@@ -135,8 +135,8 @@ export default defineUserConfig({
               prefix: '/coding/',
               collapsed: false,
               items: [
-                { text: '@fe-spec/commitlint-config', link: '' },
-                { text: '@fe-spec/markdownlint-config', link: '' }
+                { text: 'commitlint-config-toolkit', link: '' },
+                { text: 'markdownlint-config-toolkit', link: '' }
               ]
             },
             {

@@ -1,4 +1,4 @@
-# `@fe-spec/commitlint-config`
+# `commitlint-config-toolkit`
 
 > 本包提供了配套的 [commitlint 配置](https://commitlint.js.org/#/concepts-shareable-config)，用于对 `git commit message` 进行校验。
 
@@ -8,7 +8,7 @@
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install @fe-spec/commitlint-config @commitlint/cli --save-dev
+npm install commitlint-config-toolkit @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -17,7 +17,7 @@ npm install @fe-spec/commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-	extends: ['@fe-spec/commitlint-config'],
+	extends: ['commitlint-config-toolkit'],
 };
 ```
 

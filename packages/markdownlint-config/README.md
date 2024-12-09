@@ -1,4 +1,4 @@
-# `@fe-spec/markdownlint-config`
+# `markdownlint-config-toolkit`
 
 本包提供了配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 
@@ -7,7 +7,7 @@
 除了本包，你需要同时安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install @fe-spec/markdownlint-config markdownlint --save-dev
+npm install markdownlint-config-toolkit markdownlint --save-dev
 ```
 
 ## 使用
@@ -16,6 +16,6 @@ npm install @fe-spec/markdownlint-config markdownlint --save-dev
 
 ```json
 {
-  "extends": "@fe-spec/markdownlint-config"
+  "extends": "markdownlint-config-toolkit"
 }
 ```
