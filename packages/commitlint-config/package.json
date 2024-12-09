@@ -1,5 +1,5 @@
 {
-  "name": "@fe-spec/commitlint-config",
+  "name": "commitlint-config-toolkit",
   "version": "1.0.1",
   "description": "Commitlint shareable configuration",
   "author": "BoBo0512 <amber.jing512@gmail.com>",
@@ -17,7 +17,7 @@
     "url": "git+https://github.com/BoBo0512/fe-spec.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@fe-spec/commitlint-config.test.js"
+    "test": "node ./__tests__/commitlint-config-toolkit.test.js"
   },
   "bugs": {
     "url": "https://github.com/BoBo0512/fe-spec/issues"
@@ -25,5 +25,5 @@
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^8.0.0"
   },
-  "gitHead": "5211b77443c8bcb579600891c5a3e2ef726f3289"
+  "gitHead": "4acdec146fd3146a5702c7e7db9008c3f0b6fdf2"
 }
