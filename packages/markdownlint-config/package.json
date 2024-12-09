@@ -12,9 +12,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BoBo0512/fe-spec.git"
@@ -27,5 +24,6 @@
   },
   "peerDependencies": {
     "markdownlint": "0.x"
-  }
+  },
+  "gitHead": "5211b77443c8bcb579600891c5a3e2ef726f3289"
 }
