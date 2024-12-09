@@ -1,6 +1,6 @@
 {
   "name": "@fe-spec/commitlint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commitlint shareable configuration",
   "author": "BoBo0512 <amber.jing512@gmail.com>",
   "homepage": "https://github.com/BoBo0512/fe-spec#readme",
