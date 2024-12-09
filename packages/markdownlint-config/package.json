@@ -1,6 +1,6 @@
 {
   "name": "@fe-spec/markdownlint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "markdownlint shareable configuration",
   "author": "BoBo0512 <amber.jing512@gmail.com>",
   "homepage": "https://github.com/BoBo0512/fe-spec#readme",
