@@ -55,7 +55,7 @@ export default defineUserConfig({
                 link: '/engineering/git.md'
               },
               {
-                text: 'CHANGELOG 规范',
+                text: '更新日志规范',
                 link: '/engineering/changelog.md'
               },
             ]
@@ -125,7 +125,7 @@ export default defineUserConfig({
                   link: '/engineering/doc.md'
                 },
                 {
-                  text: 'CHANGELOG 规范',
+                  text: '更新日志规范',
                   link: 'changelog.md',
                 },
               ],

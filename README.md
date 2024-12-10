@@ -13,9 +13,9 @@
   - [HTML 编码规范](docs/coding/html.md)
 
 -工程规范
-  - [Git commit 提交信息规范](docs/engineering/git.md)
-  - [markdown 文档通用规范](docs/engineering/writing.md)
-  - [changelog 更新日志规范](docs/engineering/changelog.md)
+  - [Git 相关规范](docs/engineering/git.md)
+  - [文档通用规范](docs/engineering/doc.md)
+  - [更新日志规范](docs/engineering/changelog.md)
 
 ## 工具
 
@@ -30,3 +30,12 @@
 | CSS 编码规约        | [stylelint]    | [stylelint-config]    |
 | Git 规约            | [commitlint]   | [commitlint-config]   |
 | 文档通用规约        | [markdownlint] | [markdownlint-config] |
+
+[ESLint]: https://eslint.org/
+[eslint-config-toolkit]: https://www.npmjs.com/package/eslint-config-toolkit
+[stylelint]: https://stylelint.io/
+[stylelint-config-toolkit]: https://www.npmjs.com/package/stylelint-config-toolkit
+[commitlint]: https://commitlint.js.org/
+[commitlint-config-toolkit]: https://www.npmjs.com/package/commitlint-config-toolkit
+[markdownlint]: https://github.com/DavidAnson/markdownlint
+[markdownlint-config-toolkit]: https://www.npmjs.com/package/markdownlint-config-toolkit

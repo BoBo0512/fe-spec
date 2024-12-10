@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "init": "npm install",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "publish": "lerna publish"
