@@ -8,6 +8,7 @@ export default defineUserConfig({
   base: '/fe-spec/',
   bundler: viteBundler(),
   theme: plumeTheme({
+    logo: '/img/logo.svg',
     appearance: false,
     autoFrontmatter: false,
     blog: false,
