@@ -5,6 +5,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: '前端编程规范',
+  base: '/fe-spec/',
   bundler: viteBundler(),
   theme: plumeTheme({
     appearance: false,
