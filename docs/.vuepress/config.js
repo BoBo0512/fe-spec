@@ -5,7 +5,13 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: '前端编程规范',
+  description: '前端编程规范及配套工具',
   base: '/fe-spec/',
+  head: [
+    [
+      'link',{ rel: 'icon', href: '/img/logo.png' }
+    ]
+  ],
   bundler: viteBundler(),
   theme: plumeTheme({
     logo: '/img/logo.svg',
@@ -153,7 +159,7 @@ export default defineUserConfig({
       },
     },
     social: [
-      { icon: 'github', link: 'https://github.com/zhangsan' },
+      { icon: 'github', link: 'https://github.com/BoBo0512/fe-spec' },
     ],
     plugins: {
       shiki: {

@@ -7,8 +7,9 @@ config:
     background: tint-plate
     tintPlate: 210
     hero:
-      name: 前端编程规范工程化
+      name: 前端编程规范
       tagline: Front-end Specification
+      text: 一套清晰的前端编程规范文档及配套工具
       actions:
         -
           theme: brand
