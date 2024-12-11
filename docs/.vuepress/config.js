@@ -69,14 +69,14 @@ export default defineUserConfig({
           {
             text: 'NPM包',
             items: [
-              { text: 'commitlint-config-toolkit', link: '' },
-              { text: 'markdownlint-config-toolkit', link: '' }
+              { text: 'commitlint-config-toolkit', link: '/npmPkg/commitlint.md' },
+              { text: 'markdownlint-config-toolkit', link: '/npmPkg/markdownlint.md' }
             ]
           },
           {
             text: '脚手架CLI',
             items: [
-              { text: 'fe-spec-lint-cli', link: '' }
+              { text: 'fe-spec-lint-cli', link: '/npmPkg/cli.md' }
             ]
           }
         ]
@@ -136,8 +136,8 @@ export default defineUserConfig({
               prefix: '/coding/',
               collapsed: false,
               items: [
-                { text: 'commitlint-config-toolkit', link: '' },
-                { text: 'markdownlint-config-toolkit', link: '' }
+                { text: 'commitlint-config-toolkit', link: '/npmPkg/commitlint.md' },
+                { text: 'markdownlint-config-toolkit', link: '/npmPkg/markdownlint.md' }
               ]
             },
             {
@@ -145,7 +145,7 @@ export default defineUserConfig({
               prefix: '/coding/',
               // collapsed: false,
               items: [
-                { text: 'fe-spec-lint-cli', link: '' }
+                { text: 'fe-spec-lint-cli', link: '/npmPkg/cli.md' }
               ]
             },
         ]

@@ -13,11 +13,11 @@ config:
         -
           theme: brand
           text: 快速开始 →
-          link: /
+          link: /coding/html.html
         -
           theme: alt
           text: Github
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/BoBo0512/fe-spec
   -
     type: features
     features:
