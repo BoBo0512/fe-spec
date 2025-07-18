@@ -9,10 +9,11 @@ export default defineUserConfig({
   base: '/fe-spec/',
   head: [
     [
-      'link',{ rel: 'icon', href: '/img/logo.png' }
+      'link', { rel: 'icon', type: 'image/png', href: '/fe-spec/img/logo.png' }
     ]
   ],
   bundler: viteBundler(),
+  // 主题配置
   theme: plumeTheme({
     logo: '/img/logo.svg',
     appearance: false,
